@@ -514,4 +514,4 @@ def main(page: ft.Page):
         show_setup_view()
 
 
-ft.run(target=main)
+ft.app(target=main)
