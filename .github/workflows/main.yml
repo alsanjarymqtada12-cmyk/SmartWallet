@@ -22,7 +22,7 @@ jobs:
           channel: 'stable'
 
       - name: Install Dependencies
-        run: pip install flet==0.23.2 requests
+        run: pip install flet requests
       - name: Build APK
         run: |
          rm -rf ~/.gradle/caches/
